@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+
+Quando usamos pt-BR indicamos português do Brasil, assim como pt-PT indica português de Portugal.
+
+O português assim como o inglês tem variações em diferentes países, a indicação do pt-BR, pt-PT, pt, en, en-US, en-GB não interferem no HTML, são apenas valores pra informar qual o idioma se encontra, por exemplo alguns navegadores possuem detecção de idioma da página e eles podem repassar pra algum plugin isso, ou um plugin (add-on/extensão) podem usar o atributo diretamente.
+
+Se colocar a URL da página que usa esse atributo no http://translate.google.com ele vai detectar que aquele <div lang="pt-BR"></div> usa o português brasileiro (apesar que o google não difere muito ambos).
+
+Outros que geralmente podem usar esse atributo são os buscadores como Google, Bing, Yahoo, Baidu. Os buscadores usam esses atributos pra entregar páginas da preferencia regional e de idioma de uma pessoa que esta buscando.
+
+Agora falando apenas de HTML, o atributo lang independente do seu valor, pt ou pt-BR não muda em nada, a ideia do uso dele é normatizar e indicar os tipos de dados pra quem tiver interesse, se não houver esse atributo plugins, google tradutor ou buscadores irão ter dificuldades em detectar o idioma do texto apresentado.
